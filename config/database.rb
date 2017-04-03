@@ -13,14 +13,14 @@
 #     :socket    => '/tmp/mysql.sock'
 #   }
 #
-ActiveRecord::Base.configurations[:development] = {
-  :adapter   => 'postgresql',
-  :database  => 'web_service_development',
-  :username  => 'web_service_user',
-  :password  => 'geometry123',
-  :host      => 'localhost',
-  :port      => 5432
-}
+# ActiveRecord::Base.configurations[:development] = {
+#   :adapter   => 'postgresql',
+#   :database  => 'web_service_development',
+#   :username  => 'web_service_user',
+#   :password  => 'geometry123',
+#   :host      => 'localhost',
+#   :port      => 5432
+# }
 
 ActiveRecord::Base.configurations[:production] = {
   :adapter   => 'postgresql',
@@ -31,15 +31,15 @@ ActiveRecord::Base.configurations[:production] = {
   :port      => 5432
 }
 
-ActiveRecord::Base.configurations[:test] = {
-  :adapter   => 'postgresql',
-  :database  => 'web_service_test',
-  :username  => 'web_service_user',
-  :password  => 'geometry123',
-  :host      => 'localhost',
-  :port      => 5432
+# ActiveRecord::Base.configurations[:test] = {
+#   :adapter   => 'postgresql',
+#   :database  => 'web_service_test',
+#   :username  => 'web_service_user',
+#   :password  => 'geometry123',
+#   :host      => 'localhost',
+#   :port      => 5432
 
-}
+# }
 
 # Setup our logger
 ActiveRecord::Base.logger = logger
