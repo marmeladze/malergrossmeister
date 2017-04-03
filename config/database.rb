@@ -20,17 +20,15 @@ ActiveRecord::Base.configurations[:development] = {
   :password  => 'geometry123',
   :host      => 'localhost',
   :port      => 5432
-
 }
 
 ActiveRecord::Base.configurations[:production] = {
   :adapter   => 'postgresql',
-  :database  => 'web_service_production',
-  :username  => 'web_service_user',
-  :password  => 'geometry123',
-  :host      => 'localhost',
+  :database  => 'd239q5c6eaiqeb',
+  :username  => 'dvlqzctysedctn',
+  :password  => '69cd387f01dd8b3b28c8912bfd8363d0c1bb185f5a75c4bd03295848fc755257',
+  :host      => 'ec2-54-246-108-119.eu-west-1.compute.amazonaws.com',
   :port      => 5432
-
 }
 
 ActiveRecord::Base.configurations[:test] = {
