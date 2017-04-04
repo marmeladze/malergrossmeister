@@ -1,4 +1,4 @@
-module LoreIpsum
+module WebService
   class App < Padrino::Application
     use ConnectionPoolManagement
     register Padrino::Mailer
